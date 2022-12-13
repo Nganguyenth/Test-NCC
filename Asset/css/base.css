@@ -1,0 +1,28 @@
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    width: 1900px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
